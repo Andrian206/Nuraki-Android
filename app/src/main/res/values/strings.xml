@@ -1,9 +1,25 @@
 <resources>
     <string name="app_name">Nuraki</string>
     <string name="fish_name">Fish Name</string>
+    <string name="scientific_name">Scientific Name</string>
+    <string name="habitat">Habitat</string>
     <string name="description">Description</string>
     <string name="about_me">About Me</string>
-    
+    <string name="detail">Detail</string>
+
+    <!-- Developer Info -->
+    <string name="developer_name">Rio Andika Andriansyah</string>
+    <string name="developer_email">andikario0101@gmail.com</string>
+    <string name="developer_university">Universitas Kuningan</string>
+    <string name="developer_major">Teknik Informatika</string>
+    <string name="developer_student_id">20230810155</string>
+    <string name="university_label">Universitas</string>
+    <string name="major_label">Program Studi</string>
+    <string name="student_id_label">NIM</string>
+    <string name="about_app_label">Tentang Aplikasi</string>
+    <string name="about_app_description">Nuraki adalah aplikasi katalog ikan hias yang menyediakan informasi lengkap tentang berbagai jenis ikan hias populer. Aplikasi ini dibuat sebagai Proyek Dicoding.</string>
+    <string name="share">Share</string>
+
     <string-array name="data_name">
         <item>Betta</item>
         <item>Buenos Aires Tetra</item>
@@ -16,7 +32,33 @@
         <item>Serpae Tetra</item>
         <item>Tiger Barb</item>
     </string-array>
-    
+
+    <string-array name="data_scientific_name">
+        <item>Betta splendens</item>
+        <item>Hyphessobrycon anisitsi</item>
+        <item>Paracheirodon axelrodi</item>
+        <item>Corydoras paleatus</item>
+        <item>Poecilia reticulata</item>
+        <item>Pterophyllum scalare</item>
+        <item>Poecilia sphenops</item>
+        <item>Xiphophorus maculatus</item>
+        <item>Hyphessobrycon eques</item>
+        <item>Puntigrus tetrazona</item>
+    </string-array>
+
+    <string-array name="data_habitat">
+        <item>Southeast Asia - Thailand, Cambodia</item>
+        <item>South America - Argentina, Brazil</item>
+        <item>South America - Amazon Basin</item>
+        <item>South America - Brazil, Argentina</item>
+        <item>South America - Venezuela, Trinidad</item>
+        <item>South America - Amazon Basin</item>
+        <item>Central America - Mexico</item>
+        <item>Central America - Mexico, Guatemala</item>
+        <item>South America - Amazon Basin</item>
+        <item>Southeast Asia - Indonesia, Borneo</item>
+    </string-array>
+
     <string-array name="data_description">
         <item>Bettas, also known as Siamese fighting fish, are popular for their vibrant colors and flowing fins. They are labyrinth fish, meaning they can breathe atmospheric air and can be kept in smaller tanks without aeration. Males are notoriously aggressive towards each other and should be kept singly. They are relatively easy to care for, making them a good choice for beginners.</item>
         <item>The Buenos Aires tetra is a hardy and active schooling fish. They are known for their silvery body and red fins. They are a larger tetra species and can be a bit boisterous, so they are best kept in a spacious tank with other semi-aggressive fish. They are omnivores and will readily accept a variety of foods.</item>
@@ -29,7 +71,7 @@
         <item>The serpae tetra is a beautiful and active schooling fish. They have a deep red coloration and a black spot behind their gills. They can be a bit nippy, especially towards fish with long, flowing fins, so they are best kept with other active, short-finned fish. They are omnivores and will appreciate a varied diet.</item>
         <item>Tiger barbs are a lively and entertaining schooling fish. They are known for their striking orange and black striped pattern. They are a semi-aggressive fish and can be fin-nippers, so they should be kept in a group of at least six to keep their aggression within the group. They are active and will appreciate a spacious tank with plenty of swimming room.</item>
     </string-array>
-    
+
     <integer-array name="data_photo">
         <item>@drawable/betta</item>
         <item>@drawable/buenos_aires_tetra</item>
@@ -42,4 +84,4 @@
         <item>@drawable/serpae_tetra</item>
         <item>@drawable/tiger_barb</item>
     </integer-array>
-    </resources>
+</resources>
