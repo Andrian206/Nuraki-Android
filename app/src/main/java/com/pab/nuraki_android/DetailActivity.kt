@@ -12,6 +12,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 
 class DetailActivity : AppCompatActivity() {
 
@@ -41,11 +42,18 @@ class DetailActivity : AppCompatActivity() {
             onBackPressedDispatcher.onBackPressed()
         }
 
-        // Get fish data from intent
-        fish = intent.getParcelableExtra<Fish>(EXTRA_FISH)
+        fish = if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.TIRAMISU) {
+            intent.getParcelableExtra(EXTRA_FISH, Fish::class.java)
+        } else {
+            @Suppress("DEPRECATION")
+            intent.getParcelableExtra(EXTRA_FISH)
+        }
 
         fish?.let {
             setupViews(it)
+        } ?: run {
+            Toast.makeText(this, "Data tidak ditemukan", Toast.LENGTH_SHORT).show()
+            finish()
         }
     }
 
@@ -68,7 +76,8 @@ class DetailActivity : AppCompatActivity() {
                     "Name: ${it.name}\n" +
                     "Scientific Name: ${it.scientificName}\n" +
                     "Habitat: ${it.habitat}\n\n" +
-                    "Description: ${it.description}"
+                    "Description: ${it.description}\n\n" +
+                    "Download Nuraki Right Now!"
 
             val shareIntent = Intent().apply {
                 action = Intent.ACTION_SEND
