@@ -2,6 +2,7 @@
     <string name="app_name">Nuraki</string>
     <string name="fish_name">Fish Name</string>
     <string name="description">Description</string>
+    <string name="about_me">About Me</string>
     
     <string-array name="data_name">
         <item>Betta</item>
