@@ -1,3 +1,44 @@
 <resources>
-    <string name="app_name">Nuraki-Android</string>
-</resources>
+    <string name="app_name">Nuraki</string>
+    <string name="fish_name">Fish Name</string>
+    <string name="description">Description</string>
+    
+    <string-array name="data_name">
+        <item>Betta</item>
+        <item>Buenos Aires Tetra</item>
+        <item>Cardinal Tetra</item>
+        <item>Corydoras</item>
+        <item>Guppy</item>
+        <item>Manfish</item>
+        <item>Molly</item>
+        <item>Platy</item>
+        <item>Serpae Tetra</item>
+        <item>Tiger Barb</item>
+    </string-array>
+    
+    <string-array name="data_description">
+        <item>Bettas, also known as Siamese fighting fish, are popular for their vibrant colors and flowing fins. They are labyrinth fish, meaning they can breathe atmospheric air and can be kept in smaller tanks without aeration. Males are notoriously aggressive towards each other and should be kept singly. They are relatively easy to care for, making them a good choice for beginners.</item>
+        <item>The Buenos Aires tetra is a hardy and active schooling fish. They are known for their silvery body and red fins. They are a larger tetra species and can be a bit boisterous, so they are best kept in a spacious tank with other semi-aggressive fish. They are omnivores and will readily accept a variety of foods.</item>
+        <item>Cardinal tetras are a stunningly beautiful and popular aquarium fish. They have a brilliant neon blue stripe that runs from their nose to their tail, with a bright red coloration on the lower half of their body. They are a peaceful schooling fish and should be kept in groups of at least six. They prefer soft, acidic water and a well-planted tank.</item>
+        <item>Corydoras, often called "cory cats," are a peaceful and endearing group of bottom-dwelling catfish. They are known for their armored bodies and comical behavior. They are excellent scavengers and will help keep the substrate clean. They are a schooling fish and should be kept in groups of at least five.</item>
+        <item>Guppies are one of the most popular and well-known live-bearing aquarium fish. They are known for their vibrant colors and a wide variety of tail shapes. They are prolific breeders and are a great choice for beginners who are interested in breeding fish. They are peaceful and can be kept in a community tank with other small, peaceful fish.</item>
+        <item>Angelfish, or Manfish, are a graceful and majestic cichlid. They are known for their tall, laterally compressed bodies and long, flowing fins. They are a popular choice for larger aquariums. They can be slightly territorial, especially during breeding, so they are best kept with other semi-aggressive fish of a similar size.</item>
+        <item>Mollies are a popular and hardy live-bearing fish. They come in a wide variety of colors and fin types, including the popular black molly and sailfin molly. They are peaceful and are a great addition to a community tank. They are also known for their ability to adapt to a wide range of water conditions, including brackish water.</item>
+        <item>Platies are a cheerful and colorful live-bearing fish. They are very similar to guppies and mollies and are also prolific breeders. They are peaceful and easy to care for, making them another excellent choice for beginners. They come in a vast array of colors and patterns.</item>
+        <item>The serpae tetra is a beautiful and active schooling fish. They have a deep red coloration and a black spot behind their gills. They can be a bit nippy, especially towards fish with long, flowing fins, so they are best kept with other active, short-finned fish. They are omnivores and will appreciate a varied diet.</item>
+        <item>Tiger barbs are a lively and entertaining schooling fish. They are known for their striking orange and black striped pattern. They are a semi-aggressive fish and can be fin-nippers, so they should be kept in a group of at least six to keep their aggression within the group. They are active and will appreciate a spacious tank with plenty of swimming room.</item>
+    </string-array>
+    
+    <integer-array name="data_photo">
+        <item>@drawable/betta</item>
+        <item>@drawable/buenos_aires_tetra</item>
+        <item>@drawable/cardinal_tetra</item>
+        <item>@drawable/corydoras</item>
+        <item>@drawable/guppy</item>
+        <item>@drawable/manfish</item>
+        <item>@drawable/molly</item>
+        <item>@drawable/platy</item>
+        <item>@drawable/serpae_tetra</item>
+        <item>@drawable/tiger_barb</item>
+    </integer-array>
+    </resources>
