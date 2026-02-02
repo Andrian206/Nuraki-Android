@@ -74,20 +74,6 @@ Nuraki provides a centralized, beautifully designed mobile catalog that offers:
 - **Educational Content:** Scientific names, native habitats, and care information
 - **Seamless Experience:** Intuitive navigation with smooth transitions and modern UI
 
-### Screenshots / Demo
-
-<div align="center">
-
-#### 📱 Application Screenshots
-
-| Home Screen | Detail View | About Page |
-|:-----------:|:-----------:|:----------:|
-| ![Home](assets/screenshots/home.png) | ![Detail](assets/screenshots/detail.png) | ![About](assets/screenshots/about.png) |
-
-*Browse through the fish catalog, view detailed information, and learn about the developer*
-
-</div>
-
 ---
 
 ## 🏗️ Technical Architecture
