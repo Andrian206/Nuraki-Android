@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🐠 Nuraki
+# Nuraki
 
 ### Your Personal Ornamental Fish Encyclopedia
 
